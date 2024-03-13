@@ -10,3 +10,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #555555;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+  }
+
+  .Todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    color: #000000;
+    padding: 0.75rem 1rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #000000;
+    margin-bottom: 1rem;
+  }
